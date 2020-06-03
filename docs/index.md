@@ -1,12 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to napDCAT-AP
 
-You can use the [editor on GitHub](https://github.com/peterlubrich/dcatsps.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+napDCAT-AP is draft specifcation for Metadata in National Access Points (NAPs) in Europe, as developed by the European ITS Platform (EU EIP).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+More information about NAPs can be found [here](https://ec.europa.eu/transport/themes/its/road/action_plan/nap_en).
 
-### Markdown
+More information about EU EIP can be found [here](https://eip.its-platform.eu).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+More information about the backgroudn and relevance of Metadata in NAPs can be found [here](https://eip.its-platform.eu/highlights/harmonised-metadata-national-access-points).
+
+
+### Specification
+
+On this page, you will find available documents, vocabularies and example files for the most-recent version of the napDCAT-AP specification.
 
 ```markdown
 Syntax highlighted code block
