@@ -11,7 +11,13 @@ More information about the backgroudn and relevance of Metadata in NAPs can be f
 
 ### Specification
 
-On this page, you will find available documents, vocabularies and example files for the most-recent version of the napDCAT-AP specification.
+On this page, you will find available documents for the most-recent version of napDCAT-AP:
+
+[Specification](https://eueip.github.io/napDCAT-AP/documents/)
+
+[Vocabularies](https://eueip.github.io/napDCAT-AP/vocabularies/)
+
+[Example files](https://eueip.github.io/napDCAT-AP/examples/) 
 
 ```markdown
 Syntax highlighted code block
