@@ -1,8 +1,7 @@
 ## napDCAT-AP Vocabularies
 
-[Specification Version 0.7](https://github.com/EUEIP/napDCAT-AP/tree/master/Specification/Version0.7)
 
-[Categories of dataset types]
+[Categories of dataset categories](https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories)
 
 [Categories of access rights]
 
