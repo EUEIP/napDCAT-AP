@@ -1,44 +1,31 @@
-## Welcome to napDCAT-AP
+## napDCAT-AP Vocabularies
 
-napDCAT-AP is draft specifcation for Metadata in National Access Points (NAPs) in Europe, as developed by the European ITS Platform (EU EIP).
+[Specification Version 0.7](https://github.com/EUEIP/napDCAT-AP/tree/master/Specification/Version0.7)
 
-More information about NAPs can be found [here](https://ec.europa.eu/transport/themes/its/road/action_plan/nap_en).
+[Categories of dataset types]
 
-More information about EU EIP can be found [here](https://eip.its-platform.eu).
+[Categories of access rights]
 
-More information about the backgroudn and relevance of Metadata in NAPs can be found [here](https://eip.its-platform.eu/highlights/harmonised-metadata-national-access-points).
+[Categories of frequencies]
 
+[Categories of service types]
 
-### Specification
+[Categories of georeferencing methods]
 
-On this page, you will find available documents, vocabularies and example files for the most-recent version of the napDCAT-AP specification.
+[Categories of transportation modes]
 
-```markdown
-Syntax highlighted code block
+[Categories of resource types]
 
-# Header 1
-## Header 2
-### Header 3
+[Categories of data grammar standards]
 
-- Bulleted
-- List
+[Categories of data syntax standards]
 
-1. Numbered
-2. List
+[Categories of data models]
 
-**Bold** and _Italic_ and `Code` text
+[Categories of application layer protocols]
 
-[Link](url) and ![Image](src)
-```
+[Categories of communication methods]
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/peterlubrich/dcatsps.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Categories of functional road classes or other forms of link-based transport
 
 
