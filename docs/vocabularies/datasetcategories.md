@@ -10,13 +10,9 @@ Version:
 
 [RDF/XML format](www.google.com)
 
-Metadata element "Dataset type category" | Metadata element "Dataset detailed type" | URI
----------------------------------------- | ---------------------------------------- | ---
-Static road network data | Geometry | https://eueip.github.io/napDCAT-AP/vocabularies/datasettypes
-" | Road width | https://eueip.github.io/napDCAT-AP/vocabularies/datasettypes
-" | Number of lanes | https://eueip.github.io/napDCAT-AP/vocabularies/datasettypes
-" | Gradients | https://eueip.github.io/napDCAT-AP/vocabularies/datasettypes
-" | Junctions | https://eueip.github.io/napDCAT-AP/vocabularies/datasettypes
-" | Road classification | https://eueip.github.io/napDCAT-AP/vocabularies/datasettypes
+Name "Dataset type category" | URI "Dataset type category" | URI  "Dataset detailed type" | URI  "Dataset detailed type" | Coded reference to data category of EC Del. Reg. *
+---------------------------- | --------------------------- | ---------------------------- | ---------------------------- | --------------------------------------------
 
-[Back to main page](https://eueip.github.io/napDCAT-AP/)
+
+[Back to vocabulary directory](https://eueip.github.io/napDCAT-AP/vocabularies/)
+
