@@ -25,5 +25,5 @@ Name | URI
 <a name="Lessfrequentthanyearly"></a> Less frequent than yearly | [https://eueip.github.io/napDCAT-AP/vocabularies/frequencies#Lessfrequentthanyearly](#Lessfrequentthanyearly)
 
 
-[Back to main page](https://eueip.github.io/napDCAT-AP/)
+[Back to vocabulary directory](https://eueip.github.io/napDCAT-AP/vocabularies/)
 
