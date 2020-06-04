@@ -13,4 +13,4 @@ Name | URI
 <a name="ContractAndFee"></a>Contract and Fee | [https://eueip.github.io/napDCAT-AP/vocabularies/accessrights#ContractAndFee](#ContractAndFee)
 <a name="NotRelevant"></a>Not relevant | [https://eueip.github.io/napDCAT-AP/vocabularies/accessrights#NotRelevant](#NotRelevant)
 
-[Back to main page](https://eueip.github.io/napDCAT-AP/)
+[Back to vocabulary directory](https://eueip.github.io/napDCAT-AP/vocabularies/)
