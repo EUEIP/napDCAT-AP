@@ -2,9 +2,9 @@
 ### Variant B: strict reference to  EC Delegated Regulations – each category is clearly assigned to one  EC Delegated Regulation
 
 Usage note: This controlled vocabulary enables a dataset category description in two hierarchy levels:
-*	“Dataset type category”:
-  * mandatory, only one selection possible 
-  *Describes the classification of the dataset content on an aggregated level. 
+-	“Dataset type category”:
+  - mandatory, only one selection possible 
+  - Describes the classification of the dataset content on an aggregated level. 
 *	“Dataset detailed description”:
   * optional, multiple-selections possible
   * Describes the classification of the data set content on a detailed level. 
