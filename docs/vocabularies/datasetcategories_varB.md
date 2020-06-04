@@ -2,8 +2,13 @@
 ### Variant B: strict reference to  EC Delegated Regulations – each category is clearly assigned to one  EC Delegated Regulation
 
 Usage note: This controlled vocabulary enables a dataset category description in two hierarchy levels:
-•	“Dataset type category”: mandatory, only one selection possible 
-•	“Dataset detailed description”: optional, multiple-selections possible
+*	“Dataset type category”:
+  * mandatory, only one selection possible 
+  *Describes the classification of the dataset content on an aggregated level. 
+*	“Dataset detailed description”:
+  * optional, multiple-selections possible
+  * Describes the classification of the data set content on a detailed level. 
+  * It is used to concretise the “Dataset type category”. 
 This means the data provider would select one generic option of a “Dataset type category” first, and then optionally concretise this with one or more options of “Dataset detailed description”.
 
 The dataset categories be directly assigned to the datasets listed in the EC Delegated Regulations. In other cases, the definitions may be more based to a “logical clustering” of any possible mobility data (i.e. with or without reference to the EC Delegated Regulations).
@@ -11,7 +16,7 @@ This way, there are two variants below to define the possible dataset type categ
 •	Variant A: logical clustering - a category may be assigned to one or more of the EC Delegated Regulations
 •	Variant B: strict reference to EC Delegated Regulations - each category is clearly assigned to one EC Delegated Regulation
 
-The vocabulary below shows the definitions for Variant A.
+The vocabulary below shows the definitions for Variant B.
 The table for Variant A can be found [here](https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varA).
 
 Version:
@@ -132,7 +137,7 @@ Name "Dataset type category" | URI "Dataset type category" | Name  "Dataset deta
 
 
 
-* Explanation: 
+The most-right column shows a coded reference to the concerned EC Delegated Regulations. E.g., a code “B-1 a I” links to the category “geometry” of the EC Delegated Regulation for Priority Action B, under the list item “1. (a) (i)”.  
 * A= Priority Action A, Commission Delegated Regulation (EU) 2017/1926 of 31 May 2017 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of EU-wide multimodal travel information services
 * B= Priority Action B, Commission Delegated Regulation (EU) 2015/962 of 18 December 2014 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of EU-wide real-time traffic information services
 * C= Priority Action C,Commission Delegated Regulation (EU) No 886/2013 of 15 May 2013
