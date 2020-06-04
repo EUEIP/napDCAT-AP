@@ -7,7 +7,7 @@
 
 [Categories of frequencies](https://eueip.github.io/napDCAT-AP/vocabularies/frequencies)
 
-[Categories of service types](https://eueip.github.io/napDCAT-AP/vocabularies/service types)
+[Categories of service types](https://eueip.github.io/napDCAT-AP/vocabularies/servicetypes)
 
 [Categories of georeferencing methods](https://eueip.github.io/napDCAT-AP/vocabularies/georeferencingmethods)
 
