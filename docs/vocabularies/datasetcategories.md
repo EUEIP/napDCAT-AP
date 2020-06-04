@@ -13,7 +13,7 @@ Version:
 Name "Dataset type category" | URI "Dataset type category" | Name  "Dataset detailed type" | URI  "Dataset detailed type" | Coded reference to data category of EC Del. Reg. *
 ---------------------------- | --------------------------- | ---------------------------- | ---------------------------- | --------------------------------------------
 <a name="Staticroadnetworkdata"></a> Static road network data | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories#Staticroadnetworkdata](#Staticroadnetworkdata) | <a name="Geometry"></a> Geometry  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories#Geometry](#Geometry) | B-1 a i, A-1.1.e.i
-""  | "" | <a name="Roadwidth"></a> Road width | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories#Roadwidth](#Roadwidth) | B-1 a ii, A-1.1.e.i
+&nbsp;  | &nbsp; | <a name="Roadwidth"></a> Road width | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories#Roadwidth](#Roadwidth) | B-1 a ii, A-1.1.e.i
 <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories#](#) | <a name="Numberoflanes"></a> Number of lanes | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories#Numberoflanes](#Numberoflanes) | B-1 a ii, A-1.1.e.i
 <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories#](#) | <a name="Gradients"></a> Gradients | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories#Gradients](#Gradients) | B-1 a iv, A-1.1.e.i
 <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories#](#) | <a name="Junctions"></a> Junctions | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories#Junctions](#Junctions) | B-1 a v, A-1.1.e.i
