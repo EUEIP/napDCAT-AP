@@ -6,7 +6,7 @@ Version:
 
 Name | URI
 ---- | ---
-<a name="ALERTC(LCL)"></a> ALERT-C (LCL) | [https://eueip.github.io/napDCAT-AP/vocabularies/georeferencingmethods#ALERTC(LCL)](#ALERTC(LCL))
+<a name="ALERTC"></a> ALERT-C (LCL) | [https://eueip.github.io/napDCAT-AP/vocabularies/georeferencingmethods#ALERTC](#ALERTC)
 <a name="GeocoordinatesWGS84"></a> Geocoordinates WGS84 | [https://eueip.github.io/napDCAT-AP/vocabularies/georeferencingmethods#GeocoordinatesWGS84](#GeocoordinatesWGS84)
 <a name="GeocoordinatesETRS89"></a> Geocoordinates ETRS89 | [https://eueip.github.io/napDCAT-AP/vocabularies/georeferencingmethods#GeocoordinatesETRS89](#GeocoordinatesETRS89)
 <a name="ISO19148"></a> ISO 19148  | [https://eueip.github.io/napDCAT-AP/vocabularies/georeferencingmethods#ISO19148](#ISO19148)
