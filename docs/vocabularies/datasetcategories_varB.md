@@ -6,6 +6,14 @@ Usage note: This controlled vocabulary enables a dataset category description in
 •	“Dataset detailed description”: optional, multiple-selections possible
 This means the data provider would select one generic option of a “Dataset type category” first, and then optionally concretise this with one or more options of “Dataset detailed description”.
 
+The dataset categories be directly assigned to the datasets listed in the EC Delegated Regulations. In other cases, the definitions may be more based to a “logical clustering” of any possible mobility data (i.e. with or without reference to the EC Delegated Regulations).
+This way, there are two variants below to define the possible dataset type categories:
+•	Variant A: logical clustering - a category may be assigned to one or more of the EC Delegated Regulations
+•	Variant B: strict reference to EC Delegated Regulations - each category is clearly assigned to one EC Delegated Regulation
+
+The vocabulary below shows the definitions for Variant A.
+The table for Variant A can be found [here](https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varA).
+
 Version:
 
 [RDF/XML format](www.google.com)
