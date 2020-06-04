@@ -99,28 +99,29 @@ Name "Dataset type category" | URI "Dataset type category" | Name  "Dataset deta
 <a name="DatasetforserviceTripplancomputationscheduledmodestransport"></a> Dataset for service Trip plan computation   scheduled modes transport | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#DatasetforserviceTripplancomputationscheduledmodestransport](#DatasetforserviceTripplancomputationscheduledmodestransport) | <a name="Connectionlinks"></a> Connection links | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#Connectionlinks](#Connectionlinks) | A-1.1.d.i
 <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name="Networktopologyandroutes/lines"></a> Network topology and routes/lines | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#Networktopologyandroutes/lines](#Networktopologyandroutes/lines) | A-1.1.d.ii
 <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name="Transportoperators"></a> Transport operators | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#Transportoperators](#Transportoperators) | A-1.1.d.iii
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.iv
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.v
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.vi
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.vii
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.viii
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.ix
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.x
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.e.i
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.e.ii
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.e.iii
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.3.d
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.1.i
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.1.ii
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.1.iii
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.2.a.i
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.2.a.ii
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.2.a.iii
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.3
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.2.b
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.2.c.i
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.2.c.ii
- | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | n/a
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.iv
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.v
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.vi
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.vii
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.viii
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.ix
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.d.x
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.e.i
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.e.ii
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.1.e.iii
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-1.3.d
+<a name="DatasetforserviceDynamicPassingtimestripplansandauxiliaryinformation"></a> Dataset for service Dynamic Passing times  trip plans and auxiliary information | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#DatasetforserviceDynamicPassingtimestripplansandauxiliaryinformation](#DatasetforserviceDynamicPassingtimestripplansandauxiliaryinformation) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.1.i
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.1.ii
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.1.iii
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.2.a.i
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.2.a.ii
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.2.a.iii
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.3
+<a name="DatasetforserviceDynamicInformationservice"></a> Dataset for service Dynamic Information service | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#DatasetforserviceDynamicInformationservice](#DatasetforserviceDynamicInformationservice) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.2.b
+<a name="DatasetforserviceDynamicavailabilitycheck"></a> Dataset for service Dynamic availability check | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#DatasetforserviceDynamicavailabilitycheck](#DatasetforserviceDynamicavailabilitycheck) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.2.c.i
+<a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | A-2.2.c.ii
+<a name="Other"></a> Other | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#Other](#Other) | <a name=""></a>  | [https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#](#) | n/a
+
 
 
 * Explanation: 
