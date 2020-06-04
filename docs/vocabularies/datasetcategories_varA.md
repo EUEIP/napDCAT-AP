@@ -1,5 +1,5 @@
 ## Dataset categories
-## Variant A : logical clustering - a category may be assigned to one or more of the EC Delegated Regulations
+#### Variant A : logical clustering - a category may be assigned to one or more of the EC Delegated Regulations
 
 ### Usage note: 
 This controlled vocabulary enables a dataset category description in two hierarchy levels:
