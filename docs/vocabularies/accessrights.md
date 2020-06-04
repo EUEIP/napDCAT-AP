@@ -1,5 +1,4 @@
 ## Categories of access rights
-### Variant A : logical clustering - a category may be assigned to one or more of the EC Delegated Regulations
 
 Version:
 
