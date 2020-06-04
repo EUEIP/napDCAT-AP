@@ -1,20 +1,21 @@
 ## Dataset categories
 ### Variant B: strict reference to  EC Delegated Regulations – each category is clearly assigned to one  EC Delegated Regulation
 
-Usage note: This controlled vocabulary enables a dataset category description in two hierarchy levels:
--	“Dataset type category”:
-  - mandatory, only one selection possible 
-  - Describes the classification of the dataset content on an aggregated level. 
+#### Usage note: 
+This controlled vocabulary enables a dataset category description in two hierarchy levels:
+*	“Dataset type category”:
+   * mandatory, only one selection possible 
+   * Describes the classification of the dataset content on an aggregated level. 
 *	“Dataset detailed description”:
-  * optional, multiple-selections possible
-  * Describes the classification of the data set content on a detailed level. 
-  * It is used to concretise the “Dataset type category”. 
+   * optional, multiple-selections possible
+   * Describes the classification of the data set content on a detailed level. 
+   * It is used to concretise the “Dataset type category”. 
 This means the data provider would select one generic option of a “Dataset type category” first, and then optionally concretise this with one or more options of “Dataset detailed description”.
 
 The dataset categories be directly assigned to the datasets listed in the EC Delegated Regulations. In other cases, the definitions may be more based to a “logical clustering” of any possible mobility data (i.e. with or without reference to the EC Delegated Regulations).
-This way, there are two variants below to define the possible dataset type categories:
-•	Variant A: logical clustering - a category may be assigned to one or more of the EC Delegated Regulations
-•	Variant B: strict reference to EC Delegated Regulations - each category is clearly assigned to one EC Delegated Regulation
+This way, there are two variants below to define the possible dataset categories:
+*	Variant A: logical clustering - a category may be assigned to one or more of the EC Delegated Regulations
+*	Variant B: strict reference to EC Delegated Regulations - each category is clearly assigned to one EC Delegated Regulation
 
 The vocabulary below shows the definitions for Variant B.
 The table for Variant A can be found [here](https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varA).
