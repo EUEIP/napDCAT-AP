@@ -6,7 +6,7 @@ More information about NAPs can be found [here](https://ec.europa.eu/transport/t
 
 More information about EU EIP can be found [here](https://eip.its-platform.eu).
 
-More information about the backgroudn and relevance of Metadata in NAPs can be found [here](https://eip.its-platform.eu/highlights/harmonised-metadata-national-access-points).
+More information about the background and relevance of Metadata in NAPs can be found [here](https://eip.its-platform.eu/highlights/harmonised-metadata-national-access-points).
 
 
 ### Specification
@@ -37,13 +37,5 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/peterlubrich/dcatsps.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
