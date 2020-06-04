@@ -16,4 +16,5 @@ Vocabulary name | Used for Property | Used for Class | Usage note
 [Categories of communication methods](https://eueip.github.io/napDCAT-AP/vocabularies/communicationmethods) | communication method | Distribution | This property refers to the transmitting procedure from data provider to data receiver. 
 [Categories of functional road classes](https://eueip.github.io/napDCAT-AP/vocabularies/functionalroadclasses) | network coverage | Location | This property describes the part of the transport network that is covered by a data set.
 
+[Back to main page](https://eueip.github.io/napDCAT-AP/)
 
