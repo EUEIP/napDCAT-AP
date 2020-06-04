@@ -16,6 +16,6 @@ Name | URI
 <a name="Dynamicavailabilitycheck"></a> Dynamic availability check | [https://eueip.github.io/napDCAT-AP/vocabularies/servicetypes#Dynamicavailabilitycheck](#Dynamicavailabilitycheck)
 <a name="Other"></a> Other | [https://eueip.github.io/napDCAT-AP/vocabularies/servicetypes#Other](#Other)
 
-[Back to main page](https://eueip.github.io/napDCAT-AP/)
+[Back to vocabulary directory](https://eueip.github.io/napDCAT-AP/vocabularies/)
 
 
