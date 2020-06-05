@@ -21,7 +21,7 @@ On this page, you will find available documents for the most-recent version of n
 
 
 
-![Image](https://www.its-platform.eu/sites/default/files/styles/domain_image/public/project_logo_easyway_0.png)
+![Image](https://www.its-platform.eu/sites/default/files/styles/domain_image/public/project_logo_easyway_0.png?itok=eJxeLciF)
 
 
 
