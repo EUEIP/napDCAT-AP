@@ -19,23 +19,10 @@ On this page, you will find available documents for the most-recent version of n
 
 [Example files](https://eueip.github.io/napDCAT-AP/examples/) 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+[Image](https://www.its-platform.eu/sites/default/files/logo_easyway_0_0.png)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 
 
