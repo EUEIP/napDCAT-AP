@@ -1,5 +1,5 @@
 # napDCAT-AP
-###A DCAT-AP extension for Metadata in National Access Points
+### A DCAT-AP extension for Metadata in National Access Points
 
 This project is about a translation of the Coordinated Metadata Catalogue (CMC) for National Access Points (NAPs) into an extension to the DCAT-AP Metadata specification. The working title for such an extension is “napDCAT-AP” (DCAT-AP extension for National Access Points). 
 
