@@ -5,4 +5,4 @@ This project is about a translation of the Coordinated Metadata Catalogue (CMC) 
 
 It is an ongoing work of the Europen ITS Platform (EU EIP).
 
-More information about the background and the current status of this work are found at the [GitHub Pages](https://eueip.github.io/napDCAT-AP/).
+More information about the background and the current status of this work is found at the [GitHub Pages](https://eueip.github.io/napDCAT-AP/).
