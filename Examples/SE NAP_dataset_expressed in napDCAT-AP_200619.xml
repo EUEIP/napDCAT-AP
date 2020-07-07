@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is a RDF example file for a NAP dateset according to the draft napDCAT-AP specification
+It is fullfilling all mandatory and some recommended and optional elements from napDCAT-AP.
+
+This example is based on a real-life NAP dataset from the Swedish NAP.
+The Swedish NAP already allows RDF/XML representations of its metadata records.
+The real-life NAP dataset can be assessed here:
+Human-readable HTML version:
+https://www.trafficdata.se/dataset/traffic-signs-expressing-traffic-regulations-and-identifying-dangers-speed-limits
+Machine-readable RDF/XML version:
+https://www.trafficdata.se/dataset/traffic-signs-expressing-traffic-regulations-and-identifying-dangers-speed-limits.xml
+
+However, this RDF/XML representation is not fullfilling all elements from napDCAT-AP.
+Remarks regarding the origunal RDF/XML representation are marked as following comments:
+OK = this element can stay
+PROPOSAL = this element can stay; however, a proposal is given following the usage notes of napDCAT-AP
+MODIFIED = changed element
+ADDED = new element
+
+
+Further comments map each element below to properties from the napDCAT-AP specification via numbers: e.g., a comment like "napDCAT-AP property no. 3.3" maps to property 3.3. in the specification.
+-->
+<!-- -->
+  <rdf:RDF
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:ext="http://trafficdata.se/dcatext/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:locn="http://www.w3.org/ns/locn"
+    xmlns:napdcatap="https://eueip.github.io/napDCAT-AP/">
+
+    <!-- The Class "Catalog" is mandatory. It describes the concrete NAP system. Thus, the block below is added with all mandatory properties for "Class". -->
+    <dcat:Catalog rdf:about="https://www.trafficdata.se/">
+      <dct:title xml:lang="en">Trafficdata.se </dct:title> <!-- ADDED; napDCAT-AP property no. 2.4 (mandatory) -->
+      <dct:description xml:lang="en">The portal Trafficdata.se is a national service in which we gather information on, and provide you with access to, traffic and road network data. </dct:description> <!-- ADDED; napDCAT-AP property no. 2.2 (mandatory) -->
+      <dcat:dataset rdf:resource="https://www.trafficdata.se/dataset/ec459578-a11f-4728-acaa-16b08ae45cfa"/> <!-- ADDED; napDCAT-AP property no. 2.1 (mandatory) -->
+      <foaf:homepage rdf:resource="https://www.trafficdata.se/"/> <!-- ADDED; napDCAT-AP property no. 2.5 (recommended) -->
+      <dct:publisher> <!-- ADDED; napDCAT-AP property no. 2.3 (mandatory) -->
+        <foaf:Agent rdf:about="http://www.trafikverket.se/">
+          <foaf:name>http://www.trafikverket.se/</foaf:name>
+        </foaf:Agent>
+      </dct:publisher>
+      <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/> <!-- ADDED; napDCAT-AP property no. 2.6 (recommended) -->
+      <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/><!-- ADDED; napDCAT-AP property no. 2.10 (recommended) -->
+      <dcat:record rdf:resource="http://suche.transparenz.hamburg.de/dataset/naturraume-geest-und-marsch5"/><!-- ADDED; napDCAT-AP property no. 2.10 (mandatory) -->
+      <dct:spatial> <!-- ADDED; napDCAT-AP property no. 2.9 (recommended) -->
+        <dct:Location>
+          <locn:Address>
+            <locn:adminUnitL1 rdf:resource="http://nuts.geovocab.org/id/SE"/>
+          </locn:Address>
+        </dct:Location>
+      </dct:spatial>
+    </dcat:Catalog>
+
+    <!-- The Class "Catalogue Record" is mandatory. It describes the metadata entry in the NAP. Thus, the block below is added with all mandatory properties for "Catalogue Record". -->
+    <dcat:CatalogRecord rdf:about="https://www.trafficdata.se/dataset/ec459578-a11f-4728-acaa-16b08ae45cfa">
+  		<foaf:primaryTopic rdf:resource="https://www.trafficdata.se/dataset/ec459578-a11f-4728-acaa-16b08ae45cfa"/> <!-- ADDED; napDCAT-AP property no. 6.1 (mandatory) -->
+  		<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-04</dct:modified> <!-- ADDED; napDCAT-AP property no. 6.2 (mandatory) -->
+      <dct:creator><!-- ADDED; napDCAT-AP property no. 6.3 (mandatory) -->
+        <foaf:Organization rdf:about="https://www.trafficdata.se/organization/0a3a8800-a545-4538-a2ab-e7a11246ff9b">
+          <foaf:homepage>www.trafikverket.se</foaf:homepage>
+          <foaf:name>Trafikverket</foaf:name>
+          <foaf:mbox>datex@trafikverket.se</foaf:mbox>
+        </foaf:Organization>
+      <dcat:contactpoint><!-- ADDED; napDCAT-AP property no. 6.4 (mandatory) -->
+        <vcard:Organization rdf:nodeID="N5f666eec90d14abf84844e3dc258fcea">
+          <vcard:hasEmail rdf:resource="mailto:datex@trafikverket"/>
+        </vcard:Organization>
+  	</dcat:CatalogRecord>
+
+    <dcat:Dataset rdf:about="https://www.trafficdata.se/dataset/ec459578-a11f-4728-acaa-16b08ae45cfa">
+      <ext:networkcoverage rdf:resource="http://trafficdata.se/definitions/networkcoverage/motorways"/>
+      <napdcatap:networkCoverage rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/functionalroadclasses#Motorways"/> <!--MODIFIED from originally <ext:networkcoverage rdf:resource="http://trafficdata.se/definitions/networkcoverage/motorways"/>; napDCAT-AP property no. 3.10  (mandatory)> -->
+      <napdcatap:networkCoverage rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/functionalroadclasses#Arterialroadnetwork"/> <!--MODIFIED from originally <ext:networkcoverage rdf:resource="http://trafficdata.se/definitions/networkcoverage/arterial_roads"/>; napDCAT-AP property no. 3.10 (mandatory)> -->
+      <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/> <!-- PROPOSAL: please also use NAP-specific, pre-defined data categories, see below; napDCAT-AP property no. 3.12 (mandatory) -->
+      <dcat:theme rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#Dynamictrafficsignsandregulations"><!-- MODIFIED from originally <dcat:theme rdf:resource="http://trafficdata.se/definitions/category/traffic_signs_expressing_traffic_regulations_and_identifying_dangers/speed_limits"/>; napDCAT-AP property no. 3.12 (mandatory) -->
+      <dcat:theme rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/datasetcategories_varB#Dynamicspeedlimits"> <!-- ADDED; napDCAT-AP property no. 3.12 (mandatory) -->
+      <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/> <!-- OK; napDCAT-AP property no. 3.23 (mandatory) -->
+      <dcat:contactPoint> <!-- OK; napDCAT-AP property no. 3.3; mandatory -->
+        <vcard:Organization rdf:nodeID="N5f666eec90d14abf84844e3dc258fcea">
+          <vcard:hasEmail rdf:resource="mailto:datex@trafikverket"/> <!--MODIFIED from originally "<vcard:hasEmail>datex@trafikverket</vcard:hasEmail>"-->
+          <vcard:fn>Trafikverket</vcard:fn>
+          <!-- Could be optionally expanded with adress and telephone details as follows; following values are only illustrative
+          <vcard:hasTelephone rdf:parseType="Resource">
+            <vcard:hasValue rdf:resource="tel:+61755555555"/>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home"/>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+          </vcard:hasTelephone>
+          <vcard:hasAddress rdf:parseType="Resource">
+            <vcard:street-address>111 Lake Drive</vcard:street-address>
+            <vcard:locality>WonderCity</vcard:locality>
+            <vcard:postal-code>5555</vcard:postal-code>
+            <vcard:country-name>Australia</vcard:country-name>
+            <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home"/>
+          </vcard:hasAddress>
+        -->
+        </vcard:Organization>
+      </dcat:contactPoint>
+      <dcat:distribution rdf:resource="https://www.trafficdata.se/dataset/ec459578-a11f-4728-acaa-16b08ae45cfa/resource/4d2cccaf-219f-4fe6-a22c-d695ce86699d">   <!-- MODIFIED: At this position, the "Ditribution" information was embedded; it is proposed to declare it outside the "Dataset", see below,  fo readibility reasons; napDCAT-AP property no. 3.4; mandatory -->
+      <dct:identifier>ec459578-a11f-4728-acaa-16b08ae45cfa</dct:identifier> <!-- OK; napDCAT-AP property no. 3.19 (recommended) -->
+      <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-09T11:49:47.718613</dct:issued> <!-- OK; napDCAT-AP property no. 3.29 (optional) -->
+      <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/mdr/authority/frequency/UPDATE_CONT"/><!-- PROPOSAL please also use NAP-specific, pre-defined frequencies, see below; napDCAT-AP property no. 3.17 (mandatory) -->
+      <dct:accrualPeriodicity rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/frequencies#Onoccurrence"/><!-- ADDED; napDCAT-AP property no. 3.17 (mandatory) -->
+
+      <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-04T09:48:27.432387</dct:modified> <!-- OK; napDCAT-AP property no. 3.35 (optional) -->
+      <dcat:keyword>Datex</dcat:keyword><!-- PROPOSAL: please also use NAP-specific, pre-defined categories of data models in class "Distribution", property dct:format, see below; napDCAT-AP property no. 3.7 (recommended) -->
+      <dcat:keyword>Speed limits</dcat:keyword> <!-- PROPOSAL please use NAP-specific, pre-defined data categories in property dcat:theme, see above; napDCAT-AP property no. 3.7 (recommended) -->
+      <dct:spatial rdf:resource="http://sws.geonames.org/2661886"/> <!--PROPOSAL: please also give additional georeference via NUTS code; see below -->
+      <dct:spatial><!-- ADDED, napDCAT-AP property no. 3.9 (mandatory) -->
+        <dct:location>
+          <locn:Address>
+            <locn:adminUnitL1 rdf:resource="http://nuts.geovocab.org/id/SE"/>
+          </locn:Address>
+        </dct:location>
+      </dct:spatial>
+      <dct:description>Traffic signs expressing traffic regulations and identifying dangers from the Swedish Transport Administration. Datex</dct:description> <!-- OK; napDCAT-AP property no. 3.1 (mandatory) -->
+      <dcat:keyword>Act B</dcat:keyword> <!-- PROPOSAL. please also use NAP-specific,pre-defined data categories in property dcat:theme, see above; napDCAT-AP property no. 3.7 (recommended) -->-->
+      <dct:title>Traffic signs expressing traffic regulations and identifying dangers, Speed limits</dct:title> <!-- OK; napDCAT-AP property no. 3.2 (mandatory) -->
+      <dct:publisher> <!-- OK; napDCAT-AP property no. 3.8 (mandatory) -->
+        <foaf:Organization rdf:about="https://www.trafficdata.se/organization/0a3a8800-a545-4538-a2ab-e7a11246ff9b">
+          <foaf:homepage>www.trafikverket.se</foaf:homepage>
+          <foaf:name>Trafikverket</foaf:name>
+          <foaf:mbox>datex@trafikverket.se</foaf:mbox>
+        </foaf:Organization>
+      </dct:publisher>
+      <dct:creator> <!-- ADDED; copied values from dct:publisher, see above; napDCAT-AP property no. 3.14 (mandatory) -->
+        <foaf:Organization rdf:about="https://www.trafficdata.se/organization/0a3a8800-a545-4538-a2ab-e7a11246ff9b">
+          <foaf:homepage>www.trafikverket.se</foaf:homepage>
+          <foaf:name>Trafikverket</foaf:name>
+          <foaf:mbox>datex@trafikverket.se</foaf:mbox>
+        </foaf:Organization>
+      </dct:creator>
+      <napdcatap:transportationMode rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/transportationmodes#car"> <!-- ADDED, napDCAT-AP property no. 3.5 (mandatory) -->
+      <napdcatap:transportationMode rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/transportationmodes#truck"> <!-- ADDED, napDCAT-AP property no. 3.5 (mandatory) -->
+      <napdcatap:qualityDescription>Best effort</napdcatap:qualityDescription> <!-- ADDED, napDCAT-AP property no. 3.6 (mandatory) -->
+    </dcat:Dataset>
+
+    <dcat:Distribution rdf:about="https://www.trafficdata.se/dataset/ec459578-a11f-4728-acaa-16b08ae45cfa/resource/4d2cccaf-219f-4fe6-a22c-d695ce86699d">
+        <dcat:accessURL>http://www.trafikverket.se/tjanster/Oppna_data/trafikinformation-i-realtid/Trafikinformation-vag-i-realtid/Sa-har-far-du-tillgang-till-data-for-trafikinformation-i-realtid/</dcat:accessURL> <!-- OK; napDCAT-AP property no. 7.1 (mandatory) -->
+        <dct:rights rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/accessrights#noLicenseNoContract"> <!-- ADDED; napDCAT-AP property no. 7.5 (mandatory) -->
+        <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-zero"/> <!-- OK; napDCAT-AP property no. 7.7 (recommended) -->
+        <dct:description>Datex is the Swedish Transport Administration resource for Traffic signs expressing traffic regulations and identifying dangers</dct:description> <!-- OK; napDCAT-AP property no. 7.3 (recommended) -->
+        <dct:format rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/datasyntaxstandards#XML"><!--MODIFIED from originally <dct:format>application/xml</dct:Format>; napDCAT-AP property no. 7.4  (mandatory)> -->
+        <dct:format rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/datamodels#DATEXII"> <!-- ADDED; napDCAT-AP property no. 7.4  (mandatory)> -->
+        <dct:title>Datex</dct:title> <!-- OK; napDCAT-AP property no. 7.23 (optional) -->
+        <napdcatap:applicationLayerProtocol rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/applicationlayerprotocols#HTTPHTTPS">  <!-- ADDED; napDCAT-AP property no. 7.26 (mandatory) -->
+        <napdcatap:communicationMethod rdf:resource="https://eueip.github.io/napDCAT-AP/vocabularies/communicationmethods#Push"> <!-- ADDED; napDCAT-AP property no. 7.27 (mandatory) -->
+    </dcat:distribution>
+</rdf:RDF>
